@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/titleFullName" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Ram Bahadur Rai"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/txtFullName"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toRightOf="@+id/titleFullName"
+                android:layout_toEndOf="@id/titleFullName"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/titleEmail"
+                android:layout_below="@+id/titleFullName"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Ram Bahadur Rai"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/txtMail"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@+id/titleFullName"
+                android:layout_toRightOf="@+id/titleEmail"
+                android:layout_toEndOf="@id/titleEmail"
+                android:enabled="false"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/titleMobile"
+                android:layout_below="@+id/titleEmail"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Ram Bahadur Rai"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/txtMobile"
+                android:layout_below="@+id/titleEmail"
+                android:layout_toRightOf="@+id/titleMobile"
+                android:layout_toEndOf="@+id/titleMobile"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/titleCompany"
+                android:layout_below="@+id/titleMobile"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Ram Bahadur Rai"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/txtCompany"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@+id/titleMobile"
+                android:layout_toRightOf="@+id/titleCompany"
+                android:layout_toEndOf="@+id/titleCompany"
+                android:enabled="false"/>
+
+            <com.facebook.share.widget.LikeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/facebookLike"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/titleCompany"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/facebookLike"
+                android:id="@+id/btnUpdate"
+                android:visibility="visible"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/facebookLike"
+                android:id="@+id/btnSave"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

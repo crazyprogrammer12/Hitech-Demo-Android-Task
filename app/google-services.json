@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "920888473624",
+    "firebase_url": "https://demoapp-81d45.firebaseio.com",
+    "project_id": "demoapp-81d45",
+    "storage_bucket": "demoapp-81d45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920888473624:android:3058b0e216750b9c",
+        "android_client_info": {
+          "package_name": "com.example.crazy.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920888473624-j8d6es86035pirttb872no9jt42i4j6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXrl99stI0Impe_f9c6k8zlpaNx9wgM8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

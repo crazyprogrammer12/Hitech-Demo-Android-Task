@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_company">Company</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_confirm_new_password">Confirm New Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="text_reset">Reset</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No Account Yet? Create One Here</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+    <string name="title">Title</string>
+    <string name="feedback">Feedback</string>
+    <string name="submit">Submit</string>
+    <string name="choose_title">Choose a Title for Feedback</string>
+
+    <string-array name="feedback_titles">
+        <item>Support</item>
+        <item>Ask a Question</item>
+        <item>Request a Quote</item>
+        <item>Carrer Enquiry</item>
+    </string-array>
+
+    <string name="company_error">Company is required</string>
+    <string name="name_error">Full Name is required</string>
+    <string name="mobile_error">Mobile No is required</string>
+    <string name="password_error">Password is required</string>
+    <string name="email_error">Valid Email is required</string>
+    <string name="mobile_length_error">Mobile No must be 10 numbers</string>
+    <string name="password_length_error">Password must be at least 6 characters</string>
+    <string name="title_error">Title is required</string>
+    <string name="feedback_error">Feeback is required</string>
+
+    <string name="app_id">257365618138173</string>
+</resources>
